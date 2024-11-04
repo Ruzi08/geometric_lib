@@ -1,6 +1,5 @@
 # Geometric Lib
 ## Geometric Lib это набор функций с вычислением параметров геометрических фигур
-
 ### Таблица с функционалом который нужно было реализовать
 | Figures | Area | Perimeter |
 |-|--|--|
@@ -8,13 +7,12 @@
 | Rectangle | ab | 2a + 2b |
 | Square | a² | 4a |
 
-
 ## Круг
 ### Площадь
 #### Входные данные:
 ``` python
 # Радиус круга
-(int) r 
+(float) r 
 ```
 
 #### Вызов функции:
@@ -25,13 +23,13 @@ circle.area(r)
 #### Выходные данные:
 ``` python
 # Площадь круга
-(int) result = circle.area(r)
+(float) result = circle.area(r)
 ```
 ### Периметр
 #### Входные данные:
 ``` python
 # Радиус круга
-(int) r 
+(float) r 
 ```
 
 #### Вызов функции:
@@ -42,7 +40,7 @@ circle.perimeter(r)
 #### Выходные данные:
 ``` python
 # Периметр круга
-(int) result = circle.perimeter(r)
+(float) result = circle.perimeter(r)
 ```
 
 ## Прямоугольник
@@ -50,8 +48,8 @@ circle.perimeter(r)
 #### Входные данные:
 ``` python
 # Принимает стороны прямоугольника
-(int) a
-(int) b
+(float) a
+(float) b
 ```
 
 #### Вызов функции:
@@ -62,14 +60,14 @@ rectangle.area(a, b)
 #### Выходные данные:
 ``` python
 # Площадь прямоугольника
-(int) result = rectangle.area(a, b)
+(float) result = rectangle.area(a, b)
 ```
 ### Периметр
 #### Входные данные:
 ``` python
 # Принимает стороны прямоугольника
-(int) a
-(int) b
+(float) a
+(float) b
 ```
 
 #### Вызов функции:
@@ -80,7 +78,7 @@ rectangle.perimeter(a, b)
 #### Выходные данные:
 ``` python
 # Периметр прямоугольника
-(int) result = rectangle.perimeter(a, b)
+(float) result = rectangle.perimeter(a, b)
 ```
 
 ## Квадрат
@@ -88,7 +86,7 @@ rectangle.perimeter(a, b)
 #### Входные данные:
 ``` python
 # Принимает сторону квадрата
-(int) a
+(float) a
 ```
 
 #### Вызов функции:
@@ -99,13 +97,13 @@ square.area(a)
 #### Выходные данные:
 ``` python
 # Площадь квадрата
-(int) result = square.area(a)
+(float) result = square.area(a)
 ```
 ### Периметр
 #### Входные данные:
 ``` python
 # Принимает сторона квадрата
-(int) a
+(float) a
 ```
 
 #### Вызов функции:
@@ -116,15 +114,15 @@ square.perimeter(a)
 #### Выходные данные:
 ``` python
 # Периметр квадрата
-(int) result = square.perimeter(a)
+(float) result = square.perimeter(a)
 ```
 ## Треугольник
 ### Площадь
 #### Входные данные:
 ``` python
 # Принимает сторону и высоту треугольника
-(int) a
-(int) h
+(float) a
+(float) h
 ```
 
 #### Вызов функции:
@@ -135,15 +133,15 @@ triangle.area(a, h)
 #### Выходные данные:
 ``` python
 # Площадь треугольника
-(int) result = triangle.area(a, h)
+(float) result = triangle.area(a, h)
 ```
 ### Периметр
 #### Входные данные:
 ``` python
 # Принимает 3 стороны треугольника
-(int) a
-(int) b
-(int) c
+(float) a
+(float) b
+(float) c
 ```
 
 #### Вызов функции:
@@ -154,5 +152,5 @@ triangle.perimeter(a, b, c)
 #### Выходные данные:
 ``` python
 # Периметр треугольника
-(int) result = triangle.perimeter(a, b, c)
+(float) result = triangle.perimeter(a, b, c)
 ```

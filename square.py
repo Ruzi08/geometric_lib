@@ -1,9 +1,37 @@
+def area(a: float) -> float:
+    '''
+    Return area of square.
 
-def area(a):
-    '''Принимает a возвращает площадь квадрата со стороной a'''     
+    Pararmeters:
+    ------------
+        a (float): first number.
+
+    Return:
+    -------
+        area (float): area of a square with side `a`.
+
+    Eximples:
+    ---------
+        >>> area(2)
+        4
+    '''
     return a * a
 
+def perimeter(a: float) -> float:
+    '''
+    Return perimeter of square.
 
-def perimeter(a):
-    '''Принимает число r, возвращает периметр квадрата(длина стороны умноженная на 4)'''
+    Pararmeters:
+    ------------
+        a (float): first number.
+
+    Return:
+    -------
+        perimeter (float): perimeter of a square with side `a`.
+
+    Eximples:
+    ---------
+        >>> perimeter(2)
+        8
+    '''
     return 4 * a

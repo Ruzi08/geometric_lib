@@ -17,6 +17,8 @@ def area(r: float) -> float:
         >>> area(5)
         78.53981633974483
     '''
+    if r < 0:
+        raise ValueError("Negative number")
     return math.pi * r * r
 
 
@@ -37,5 +39,6 @@ def perimeter(r: float) -> float:
         >>> perimeter(5)
         31.41592653589793
     '''
+    if (r < 0):
+        raise ValueError("Negative number")
     return 2 * math.pi * r
-print(perimeter(5))

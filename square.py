@@ -15,6 +15,8 @@ def area(a: float) -> float:
         >>> area(2)
         4
     '''
+    if a < 0:
+        raise ValueError("Negative number")
     return a * a
 
 def perimeter(a: float) -> float:
@@ -34,4 +36,6 @@ def perimeter(a: float) -> float:
         >>> perimeter(2)
         8
     '''
+    if a < 0:
+        raise ValueError("Negative number")
     return 4 * a

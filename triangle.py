@@ -16,6 +16,8 @@ def area(a: float, h: float) -> float:
         >>> area(1, 2)
         1
     '''
+    if a < 0 or h < 0:
+        raise ValueError("Negative numbers")
     return a * h / 2
 
 def perimeter(a: float, b: float, c: float) -> float:
@@ -37,4 +39,6 @@ def perimeter(a: float, b: float, c: float) -> float:
         >>> perimeter(1, 2, 3)
         6
     '''
+    if a < 0 or b < 0 or c < 0:
+        raise ValueError("Negative numbers")
     return a + b + c

@@ -7,7 +7,7 @@
 | Rectangle | ab | 2a + 2b |
 | Square | a² | 4a |
 
-## Круг
+## [Круг](../circle.py)
 ### Площадь
 #### Входные данные:
 ``` python
@@ -43,7 +43,7 @@ circle.perimeter(r)
 (float) result = circle.perimeter(r)
 ```
 
-## Прямоугольник
+## [Прямоугольник](../rectangle.py)
 ### Площадь
 #### Входные данные:
 ``` python
@@ -81,7 +81,7 @@ rectangle.perimeter(a, b)
 (float) result = rectangle.perimeter(a, b)
 ```
 
-## Квадрат
+## [Квадрат](../square.py)
 ### Площадь
 #### Входные данные:
 ``` python
@@ -116,7 +116,7 @@ square.perimeter(a)
 # Периметр квадрата
 (float) result = square.perimeter(a)
 ```
-## Треугольник
+## [Треугольник](../triangle.py)
 ### Площадь
 #### Входные данные:
 ``` python
@@ -164,3 +164,14 @@ triangle.perimeter(a, b, c)
 | rectangle      | 4                      | 4                                    | 2024-11-05        |
 | square         | 4                      | 4                                    | 2024-11-05        |
 | triangle       | 4                      | 4                                    | 2024-11-05        |
+---
+## История коммитов
+``` bash
+45686a8 (HEAD -> documenting_work_465756, origin/documenting_work_465756, new_features_465756) Fixed the format of the function description
+38890c6 Added docs/README.md
+df9f0da Added description of functions
+5a1f565 (origin/new_features_465756) the error has been fixed
+57df247 a new file has been added
+d078c8d L-03: Docs added
+8ba9aeb L-03: Circle and square added
+```

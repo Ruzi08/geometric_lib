@@ -167,11 +167,14 @@ triangle.perimeter(a, b, c)
 ---
 ## История коммитов
 ``` bash
-45686a8 (HEAD -> documenting_work_465756, origin/documenting_work_465756, new_features_465756) Fixed the format of the function description
+c9c455f (HEAD -> testing_work_465756, origin/testing_work_465756) Merge remote-tracking branch 'origin/documenting_work_465756' into testing_work_465756
+0933933 (origin/documenting_work_465756, documenting_work_465756) Add links
+ab9b873 Added testing of functions
+45686a8 Fixed the format of the function description
 38890c6 Added docs/README.md
 df9f0da Added description of functions
 5a1f565 (origin/new_features_465756) the error has been fixed
 57df247 a new file has been added
-d078c8d L-03: Docs added
+d078c8d (main) L-03: Docs added
 8ba9aeb L-03: Circle and square added
 ```

@@ -164,3 +164,24 @@ triangle.perimeter(a, b, c)
 | rectangle      | 4                      | 4                                    | 2024-11-05        |
 | square         | 4                      | 4                                    | 2024-11-05        |
 | triangle       | 4                      | 4                                    | 2024-11-05        |
+---
+## История коммитов
+``` bash
+936d145 (HEAD -> CI_CD_465756) update main.yml
+5017327 update main.yml
+a7e8990 fix main.uml
+888e665 add dependencies installing
+993b2ec fix main.yml
+35cacc8 fix main.yml
+63a68bf Update workflow file
+c608b63 edit path name
+92a0c00 create main.yml
+ab9b873 Added testing of functions
+45686a8 Fixed the format of the function description
+38890c6 Added docs/README.md
+df9f0da Added description of functions
+5a1f565 (origin/new_features_465756) the error has been fixed
+57df247 a new file has been added
+d078c8d (main) L-03: Docs added
+8ba9aeb L-03: Circle and square added
+```
